@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active {
+    @apply italic text-3xl font-bold text-blue-300 duration-200;
+}
